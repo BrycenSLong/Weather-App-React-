@@ -1,0 +1,86 @@
+.Navbar {
+  border: 2px solid black;
+  padding: 0.2rem;
+  background: linear-gradient( rgba(16, 92, 255, 0.708), rgb(1, 27, 84));
+  box-shadow: 0px 10px 10px black;
+  color: #fff;
+  z-index: 1001;
+  }
+  
+  a {
+    padding: 0.2rem;
+    border: 2px solid purple;
+    position: relative;
+  }
+  
+  .main-container {
+    border: 2px solid blue;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    height: 950px;
+    background: rgb(47, 47, 47);
+    z-index: 1000;
+  }
+  
+  .week-list {
+    padding: 0.2rem;
+    border: 2px solid black;
+    width: 700px;
+    height: 918px;
+    margin: 0.5rem;
+    background: linear-gradient(grey, rgba(128, 128, 128, 0.631));
+    border-radius: 0.5rem;
+  }
+  
+  ol {
+    display: grid;
+    padding: 15px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid black;
+    height: 750px;
+    background: linear-gradient(#326b8e, #e2e2e2);
+    border-radius: 0.5rem;
+  }
+  
+  li {
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    height: 90px;
+    width: 650px;
+    background: linear-gradient(#242526be, #010205);
+    color: white;
+    font-size: xx-large;
+  }
+
+  .temp {
+    border: 2px solid green;
+    width: 220px;
+    margin-right: 50px;
+    color: rgb(136, 185, 254);
+    font-size: large;
+
+}
+  
+  .radar {
+    padding: 0.2rem;
+    border: 2px solid black;
+    margin: 0.5rem;
+    width: 750px;
+    height: 400px;
+    
+  }
+  
+  .map {
+    padding: 0.2rem;
+    border: 2px solid red;
+    margin: 0.5rem;
+    width: 750px;
+    height: 500px;
+  
+  }
